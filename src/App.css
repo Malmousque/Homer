@@ -2,9 +2,29 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.noworking {
+  animation: App-logo-spin infinite 40s linear;
+  height: 10vmin;
+  background-color: green;
+  transition: 1s;
+  border-radius: 12mm;
+  border: 0px;
+  font-size: 2em;
+}
+
+.working {
+  animation: App-logo-spin infinite 40s linear;
   height: 40vmin;
+  animation-direction: reverse;
+  background-color: yellow;
+  color: red;
+  border-top-left-radius: 50mm;
+  border-bottom-left-radius: 70mm;
+  margin-left: 50%;
+  transition: 3s;
+  border: 0px;
+  font-size: 1em;
+
 }
 
 .App-header {
